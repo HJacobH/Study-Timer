@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Study timer</title>
+</head>
+<body>
+    <h1>Study Timer</h1>
+    <h2>Time to study</h2>
+    <div>
+        <input id="minutyStudy" type="text" placeholder="25">
+        <input id="sekundyStudy" type="text" placeholder="00">
+    </div>
+    <h2>Time to relax</h2>
+    <div>
+        <input id="minutyRelax" type="text" placeholder="5">
+        <input id="sekundyRelax" type="text" placeholder="00">
+    </div>
+
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+
+    <div>
+        <h1>Timer</h1>
+        <div>
+            <h1 id="timer"></h1>
+            <h1 id="timer2"></h1>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
